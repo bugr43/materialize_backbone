@@ -4,7 +4,7 @@ var livereload = require('gulp-livereload');
 
 gulp.task('connect', function () {
     connect.server({
-        port: 8080,
+        port: 3000,
         livereload: true
     });
 });
